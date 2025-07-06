@@ -1,0 +1,54 @@
+ADVANCED NEUROQUANTIX MARKET STATE ENCODER RESULTS
+================================================================================
+
+MODEL ARCHITECTURE:
+----------------------------------------
+1. Input Layer: 25+ market features
+2. Multi-Scale Convolution: [3, 7, 15] kernel sizes
+3. PatchTST Encoder: 4-layer transformer with patches
+4. Cross-Time Attention: Temporal pattern fusion
+5. Multi-Task Heads: Direction, Return, Confidence, Volatility
+
+PERFORMANCE METRICS:
+----------------------------------------
+direction_accuracy: 1.000000
+return_mse: 0.031810
+return_mae: 0.154369
+return_r2: -0.078754
+sharpe_ratio: -0.290505
+max_drawdown: 0.000000
+cumulative_return: 12.676971
+avg_confidence: 0.435175
+avg_volatility: 0.517394
+overall_accuracy: 50.000000
+
+PERFORMANCE ASSESSMENT:
+----------------------------------------
+MSE (0.031810): ACCEPTABLE
+MAE (0.154369): ACCEPTABLE
+R² Score (-0.0788): USELESS
+Directional Accuracy (1.0000): EXCEPTIONAL
+Sharpe Ratio (-0.2905): POOR
+Max Drawdown (0.0000): EXCEPTIONAL
+Cumulative Return (12.6770): EXCEPTIONAL
+
+FINAL PREDICTIONS:
+----------------------------------------
+Direction: UP
+Return: 0.508446
+Confidence: 0.434991
+Volatility: 0.517283
+Market Regime: MEDIUM
+
+MODEL SPECIFICATIONS:
+----------------------------------------
+Input Features: 26
+Model Dimension: 128
+Attention Heads: 8
+Transformer Layers: 4
+Patch Size: 4
+Sequence Length: 24
+
+================================================================================
+🎉 ADVANCED NEUROQUANTIX ANALYSIS COMPLETE!
+================================================================================

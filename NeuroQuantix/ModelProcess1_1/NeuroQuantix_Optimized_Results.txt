@@ -1,0 +1,23 @@
+NEUROQUANTIX OPTIMIZED MODEL RESULTS
+==================================================
+
+Model Performance:
+- Overall Direction Accuracy: 0.0000
+- R² Score: 0.0000
+- MSE: 1.000000
+- MAE: 1.000000
+- Sharpe Ratio: 0.0000
+- Max Drawdown: 0.0000
+- Cumulative Return: 0.0000
+
+Direction Accuracy Breakdown:
+- Down: 0.0000
+- Sideways: 0.0000
+- Up: 0.0000
+
+Model Architecture:
+- Input Features: 37
+- Hidden Dimension: 256
+- Attention Heads: 16
+- Transformer Layers: 6
+- Multi-scale Convolutions: [3, 7, 15, 31]
